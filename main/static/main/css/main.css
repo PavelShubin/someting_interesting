@@ -1,0 +1,18 @@
+aside {
+    float: left;
+    background: #090632;
+    width: 25%;
+    color: #fff;
+    height: 100vh;
+    border-right: 5px solid #1167b5;
+}
+
+h1#aside_name {
+    text-align: center;
+    margin-top: 30px;
+}
+
+h3#navigation {
+    text-align: center;
+    margin-top: 50px;
+}
