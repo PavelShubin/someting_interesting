@@ -12,8 +12,22 @@
 </head>
 <body style="background: #000099">
     <aside>
-        <h1 id="aside_name">Проект Павла</h1>
-        <h3 id="navigation">Навигация</h3>
+        <h2 id="aside_name">Проект Павла</h2>
+        <div id="navigation">
+            <h3>Навигация</h3>
+            <ul>
+                {% if title == "Главная страница" %}
+                    <li>Главная страница</li>
+                {% else %}
+                    <a href="{% url 'main' %}"><li>Главная страница</li></a>
+                {% endif %}
+                {% if title == "Перемножение циклов" %}
+                    <li>Перемножение циклов</li>
+                {% else %}
+                    <a href="{% url 'cycle' %}"><li>Перемножение циклов</li></a>
+                {% endif %}
+            </ul>
+        </div>
     </aside>
     <main>
         {% block content %}

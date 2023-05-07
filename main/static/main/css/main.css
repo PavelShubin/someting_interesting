@@ -4,15 +4,52 @@ aside {
     width: 25%;
     color: #fff;
     height: 100vh;
+    padding: 2.5%;
     border-right: 5px solid #1167b5;
 }
 
-h1#aside_name {
-    text-align: center;
+h2#aside_name {
+    margin-left: 10px;
     margin-top: 30px;
 }
 
-h3#navigation {
-    text-align: center;
+div#navigation {
     margin-top: 50px;
+}
+
+div#navigation ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+div#navigation ul a { text-decoration: none; }
+div#navigation ul li {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    border-radius: 5px;
+    background: #808080;
+    font-size: 20px;
+    display: block;
+    width: 300px;
+    height: 32px;
+    margin-left: -30px;
+    margin-top: 25px;
+}
+
+main .features {
+    padding: 2.5%;
+    float: left;
+    width: 75%;
+}
+
+main .features h1 {
+    text-align: center;
+    color: #fff;
+}
+
+main .features h3 {
+    margin-top: 20px;
+    color: #fff;
 }
